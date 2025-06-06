@@ -1,0 +1,845 @@
+Array
+(
+    [PHPRC] => /home/demobaqu/bo3.coddb.net/
+    [PATH] => /usr/local/bin:/bin:/usr/bin
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate, br, zstd
+    [HTTP_ACCEPT_LANGUAGE] => en-GB,en-US;q=0.9,en;q=0.8
+    [HTTP_COOKIE] => mybb[lastvisit]=1749075904; sid=d516686569e315b680f07bc599c73f6e; mybblang=english; dvz_sb_last_read=2; mybb[lastactive]=1749075910; loginattempts=1; mybbuser=1_cFtylqRhFCzcqHARYggbf5qA82B375LwUXNmBprqtCEO4N9A39; collapsed=; PHPSESSID=34e7b3593901306f92bba400d5af7a71; remember_token=53592ce51ce52c0c7583593f195e122f1f81cd1a5540cd7d02a4d5c6073c9492
+    [HTTP_HOST] => bo3.coddb.net
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+    [HTTP_CACHE_CONTROL] => max-age=0
+    [HTTP_X_FORWARDED_FOR] => 95.146.14.61
+    [HTTP_SEC_CH_UA] => "Google Chrome";v="137", "Chromium";v="137", "Not/A)Brand";v="24"
+    [HTTP_SEC_CH_UA_MOBILE] => ?0
+    [HTTP_SEC_CH_UA_PLATFORM] => "Windows"
+    [HTTP_UPGRADE_INSECURE_REQUESTS] => 1
+    [HTTP_SEC_FETCH_SITE] => none
+    [HTTP_SEC_FETCH_MODE] => navigate
+    [HTTP_SEC_FETCH_USER] => ?1
+    [HTTP_SEC_FETCH_DEST] => document
+    [HTTP_PRIORITY] => u=0, i
+    [HTTP_X_FORWARDED_PROTO] => https
+    [HTTP_X_HTTPS] => on
+    [DOCUMENT_ROOT] => /home/demobaqu/bo3.coddb.net
+    [REMOTE_ADDR] => 95.146.14.61
+    [REMOTE_PORT] => 52486
+    [SERVER_ADDR] => 198.54.116.172
+    [SERVER_NAME] => bo3.coddb.net
+    [SERVER_ADMIN] => webmaster@bo3.coddb.net
+    [SERVER_PORT] => 443
+    [REQUEST_SCHEME] => https
+    [REQUEST_URI] => /file_browser.php
+    [PROXY_REMOTE_ADDR] => 198.54.116.172
+    [HTTPS] => on
+    [SCRIPT_FILENAME] => /home/demobaqu/bo3.coddb.net/file_browser.php
+    [QUERY_STRING] => 
+    [SCRIPT_URI] => https://bo3.coddb.net/file_browser.php
+    [SCRIPT_URL] => /file_browser.php
+    [SCRIPT_NAME] => /file_browser.php
+    [SERVER_PROTOCOL] => HTTP/1.1
+    [SERVER_SOFTWARE] => LiteSpeed
+    [REQUEST_METHOD] => GET
+    [X-LSCACHE] => on
+    [PHP_SELF] => /file_browser.php
+    [REQUEST_TIME_FLOAT] => 1749227480.2366
+    [REQUEST_TIME] => 1749227480
+    [argv] => Array
+        (
+        )
+
+    [argc] => 0
+)
+Array
+(
+    [PHPRC] => /home/demobaqu/bo3.coddb.net/
+    [PATH] => /usr/local/bin:/bin:/usr/bin
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate, br, zstd
+    [HTTP_ACCEPT_LANGUAGE] => en-GB,en-US;q=0.9,en;q=0.8
+    [HTTP_COOKIE] => mybb[lastvisit]=1749075904; sid=d516686569e315b680f07bc599c73f6e; mybblang=english; dvz_sb_last_read=2; mybb[lastactive]=1749075910; loginattempts=1; mybbuser=1_cFtylqRhFCzcqHARYggbf5qA82B375LwUXNmBprqtCEO4N9A39; collapsed=; PHPSESSID=34e7b3593901306f92bba400d5af7a71; remember_token=53592ce51ce52c0c7583593f195e122f1f81cd1a5540cd7d02a4d5c6073c9492
+    [HTTP_HOST] => bo3.coddb.net
+    [HTTP_REFERER] => https://bo3.coddb.net/file_browser.php
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+    [HTTP_X_FORWARDED_FOR] => 95.146.14.61
+    [HTTP_SEC_CH_UA] => "Google Chrome";v="137", "Chromium";v="137", "Not/A)Brand";v="24"
+    [HTTP_SEC_CH_UA_MOBILE] => ?0
+    [HTTP_SEC_CH_UA_PLATFORM] => "Windows"
+    [HTTP_UPGRADE_INSECURE_REQUESTS] => 1
+    [HTTP_SEC_FETCH_SITE] => same-origin
+    [HTTP_SEC_FETCH_MODE] => navigate
+    [HTTP_SEC_FETCH_USER] => ?1
+    [HTTP_SEC_FETCH_DEST] => document
+    [HTTP_PRIORITY] => u=0, i
+    [HTTP_X_FORWARDED_PROTO] => https
+    [HTTP_X_HTTPS] => on
+    [DOCUMENT_ROOT] => /home/demobaqu/bo3.coddb.net
+    [REMOTE_ADDR] => 95.146.14.61
+    [REMOTE_PORT] => 57122
+    [SERVER_ADDR] => 198.54.116.172
+    [SERVER_NAME] => bo3.coddb.net
+    [SERVER_ADMIN] => webmaster@bo3.coddb.net
+    [SERVER_PORT] => 443
+    [REQUEST_SCHEME] => https
+    [REQUEST_URI] => /file_browser.php/raw/logout.php
+    [PATH_INFO] => /raw/logout.php
+    [PATH_TRANSLATED] => /home/demobaqu/bo3.coddb.net/raw/logout.php
+    [PROXY_REMOTE_ADDR] => 198.54.116.172
+    [HTTPS] => on
+    [SCRIPT_FILENAME] => /home/demobaqu/bo3.coddb.net/file_browser.php
+    [QUERY_STRING] => 
+    [SCRIPT_URI] => https://bo3.coddb.net/file_browser.php/raw/logout.php
+    [SCRIPT_URL] => /file_browser.php/raw/logout.php
+    [SCRIPT_NAME] => /file_browser.php
+    [SERVER_PROTOCOL] => HTTP/1.1
+    [SERVER_SOFTWARE] => LiteSpeed
+    [REQUEST_METHOD] => GET
+    [X-LSCACHE] => on
+    [PHP_SELF] => /file_browser.php/raw/logout.php
+    [REQUEST_TIME_FLOAT] => 1749227483.9538
+    [REQUEST_TIME] => 1749227483
+    [argv] => Array
+        (
+        )
+
+    [argc] => 0
+)
+Array
+(
+    [PHPRC] => /home/demobaqu/bo3.coddb.net/
+    [PATH] => /usr/local/bin:/bin:/usr/bin
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate, br, zstd
+    [HTTP_ACCEPT_LANGUAGE] => en-GB,en-US;q=0.9,en;q=0.8
+    [HTTP_COOKIE] => mybb[lastvisit]=1749075904; sid=d516686569e315b680f07bc599c73f6e; mybblang=english; dvz_sb_last_read=2; mybb[lastactive]=1749075910; loginattempts=1; mybbuser=1_cFtylqRhFCzcqHARYggbf5qA82B375LwUXNmBprqtCEO4N9A39; collapsed=; PHPSESSID=34e7b3593901306f92bba400d5af7a71; remember_token=53592ce51ce52c0c7583593f195e122f1f81cd1a5540cd7d02a4d5c6073c9492
+    [HTTP_HOST] => bo3.coddb.net
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+    [HTTP_CACHE_CONTROL] => max-age=0
+    [HTTP_X_FORWARDED_FOR] => 95.146.14.61
+    [HTTP_SEC_CH_UA] => "Google Chrome";v="137", "Chromium";v="137", "Not/A)Brand";v="24"
+    [HTTP_SEC_CH_UA_MOBILE] => ?0
+    [HTTP_SEC_CH_UA_PLATFORM] => "Windows"
+    [HTTP_UPGRADE_INSECURE_REQUESTS] => 1
+    [HTTP_SEC_FETCH_SITE] => none
+    [HTTP_SEC_FETCH_MODE] => navigate
+    [HTTP_SEC_FETCH_USER] => ?1
+    [HTTP_SEC_FETCH_DEST] => document
+    [HTTP_PRIORITY] => u=0, i
+    [HTTP_X_FORWARDED_PROTO] => https
+    [HTTP_X_HTTPS] => on
+    [DOCUMENT_ROOT] => /home/demobaqu/bo3.coddb.net
+    [REMOTE_ADDR] => 95.146.14.61
+    [REMOTE_PORT] => 51424
+    [SERVER_ADDR] => 198.54.116.172
+    [SERVER_NAME] => bo3.coddb.net
+    [SERVER_ADMIN] => webmaster@bo3.coddb.net
+    [SERVER_PORT] => 443
+    [REQUEST_SCHEME] => https
+    [REQUEST_URI] => /file_browser.php
+    [PROXY_REMOTE_ADDR] => 198.54.116.172
+    [HTTPS] => on
+    [SCRIPT_FILENAME] => /home/demobaqu/bo3.coddb.net/file_browser.php
+    [QUERY_STRING] => 
+    [SCRIPT_URI] => https://bo3.coddb.net/file_browser.php
+    [SCRIPT_URL] => /file_browser.php
+    [SCRIPT_NAME] => /file_browser.php
+    [SERVER_PROTOCOL] => HTTP/1.1
+    [SERVER_SOFTWARE] => LiteSpeed
+    [REQUEST_METHOD] => GET
+    [X-LSCACHE] => on
+    [PHP_SELF] => /file_browser.php
+    [REQUEST_TIME_FLOAT] => 1749227651.1625
+    [REQUEST_TIME] => 1749227651
+    [argv] => Array
+        (
+        )
+
+    [argc] => 0
+)
+Array
+(
+    [PHPRC] => /home/demobaqu/bo3.coddb.net/
+    [PATH] => /usr/local/bin:/bin:/usr/bin
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate, br, zstd
+    [HTTP_ACCEPT_LANGUAGE] => en-GB,en-US;q=0.9,en;q=0.8
+    [HTTP_COOKIE] => mybb[lastvisit]=1749075904; sid=d516686569e315b680f07bc599c73f6e; mybblang=english; dvz_sb_last_read=2; mybb[lastactive]=1749075910; loginattempts=1; mybbuser=1_cFtylqRhFCzcqHARYggbf5qA82B375LwUXNmBprqtCEO4N9A39; collapsed=; PHPSESSID=34e7b3593901306f92bba400d5af7a71; remember_token=53592ce51ce52c0c7583593f195e122f1f81cd1a5540cd7d02a4d5c6073c9492
+    [HTTP_HOST] => bo3.coddb.net
+    [HTTP_REFERER] => https://bo3.coddb.net/file_browser.php
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+    [HTTP_X_FORWARDED_FOR] => 95.146.14.61
+    [HTTP_SEC_CH_UA] => "Google Chrome";v="137", "Chromium";v="137", "Not/A)Brand";v="24"
+    [HTTP_SEC_CH_UA_MOBILE] => ?0
+    [HTTP_SEC_CH_UA_PLATFORM] => "Windows"
+    [HTTP_UPGRADE_INSECURE_REQUESTS] => 1
+    [HTTP_SEC_FETCH_SITE] => same-origin
+    [HTTP_SEC_FETCH_MODE] => navigate
+    [HTTP_SEC_FETCH_USER] => ?1
+    [HTTP_SEC_FETCH_DEST] => document
+    [HTTP_PRIORITY] => u=0, i
+    [HTTP_X_FORWARDED_PROTO] => https
+    [HTTP_X_HTTPS] => on
+    [DOCUMENT_ROOT] => /home/demobaqu/bo3.coddb.net
+    [REMOTE_ADDR] => 95.146.14.61
+    [REMOTE_PORT] => 51524
+    [SERVER_ADDR] => 198.54.116.172
+    [SERVER_NAME] => bo3.coddb.net
+    [SERVER_ADMIN] => webmaster@bo3.coddb.net
+    [SERVER_PORT] => 443
+    [REQUEST_SCHEME] => https
+    [REQUEST_URI] => /file_browser.php?path=file_browser.php&mode=view
+    [PROXY_REMOTE_ADDR] => 198.54.116.172
+    [HTTPS] => on
+    [SCRIPT_FILENAME] => /home/demobaqu/bo3.coddb.net/file_browser.php
+    [QUERY_STRING] => path=file_browser.php&mode=view
+    [SCRIPT_URI] => https://bo3.coddb.net/file_browser.php
+    [SCRIPT_URL] => /file_browser.php
+    [SCRIPT_NAME] => /file_browser.php
+    [SERVER_PROTOCOL] => HTTP/1.1
+    [SERVER_SOFTWARE] => LiteSpeed
+    [REQUEST_METHOD] => GET
+    [X-LSCACHE] => on
+    [PHP_SELF] => /file_browser.php
+    [REQUEST_TIME_FLOAT] => 1749227652.502
+    [REQUEST_TIME] => 1749227652
+    [argv] => Array
+        (
+            [0] => path=file_browser.php&mode=view
+        )
+
+    [argc] => 1
+)
+Array
+(
+    [PHPRC] => /home/demobaqu/bo3.coddb.net/
+    [PATH] => /usr/local/bin:/bin:/usr/bin
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate, br, zstd
+    [HTTP_ACCEPT_LANGUAGE] => en-GB,en-US;q=0.9,en;q=0.8
+    [HTTP_COOKIE] => mybb[lastvisit]=1749075904; sid=d516686569e315b680f07bc599c73f6e; mybblang=english; dvz_sb_last_read=2; mybb[lastactive]=1749075910; loginattempts=1; mybbuser=1_cFtylqRhFCzcqHARYggbf5qA82B375LwUXNmBprqtCEO4N9A39; collapsed=; PHPSESSID=34e7b3593901306f92bba400d5af7a71; remember_token=53592ce51ce52c0c7583593f195e122f1f81cd1a5540cd7d02a4d5c6073c9492
+    [HTTP_HOST] => bo3.coddb.net
+    [HTTP_REFERER] => https://bo3.coddb.net/file_browser.php?path=file_browser.php&mode=view
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+    [HTTP_X_FORWARDED_FOR] => 95.146.14.61
+    [HTTP_SEC_CH_UA] => "Google Chrome";v="137", "Chromium";v="137", "Not/A)Brand";v="24"
+    [HTTP_SEC_CH_UA_MOBILE] => ?0
+    [HTTP_SEC_CH_UA_PLATFORM] => "Windows"
+    [HTTP_UPGRADE_INSECURE_REQUESTS] => 1
+    [HTTP_SEC_FETCH_SITE] => same-origin
+    [HTTP_SEC_FETCH_MODE] => navigate
+    [HTTP_SEC_FETCH_USER] => ?1
+    [HTTP_SEC_FETCH_DEST] => document
+    [HTTP_PRIORITY] => u=0, i
+    [HTTP_X_FORWARDED_PROTO] => https
+    [HTTP_X_HTTPS] => on
+    [DOCUMENT_ROOT] => /home/demobaqu/bo3.coddb.net
+    [REMOTE_ADDR] => 95.146.14.61
+    [REMOTE_PORT] => 51730
+    [SERVER_ADDR] => 198.54.116.172
+    [SERVER_NAME] => bo3.coddb.net
+    [SERVER_ADMIN] => webmaster@bo3.coddb.net
+    [SERVER_PORT] => 443
+    [REQUEST_SCHEME] => https
+    [REQUEST_URI] => /file_browser.php?path=.
+    [PROXY_REMOTE_ADDR] => 198.54.116.172
+    [HTTPS] => on
+    [SCRIPT_FILENAME] => /home/demobaqu/bo3.coddb.net/file_browser.php
+    [QUERY_STRING] => path=.
+    [SCRIPT_URI] => https://bo3.coddb.net/file_browser.php
+    [SCRIPT_URL] => /file_browser.php
+    [SCRIPT_NAME] => /file_browser.php
+    [SERVER_PROTOCOL] => HTTP/1.1
+    [SERVER_SOFTWARE] => LiteSpeed
+    [REQUEST_METHOD] => GET
+    [X-LSCACHE] => on
+    [PHP_SELF] => /file_browser.php
+    [REQUEST_TIME_FLOAT] => 1749227654.0219
+    [REQUEST_TIME] => 1749227654
+    [argv] => Array
+        (
+            [0] => path=.
+        )
+
+    [argc] => 1
+)
+Array
+(
+    [PHPRC] => /home/demobaqu/bo3.coddb.net/
+    [PATH] => /usr/local/bin:/bin:/usr/bin
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate, br, zstd
+    [HTTP_ACCEPT_LANGUAGE] => en-GB,en-US;q=0.9,en;q=0.8
+    [HTTP_COOKIE] => mybb[lastvisit]=1749075904; sid=d516686569e315b680f07bc599c73f6e; mybblang=english; dvz_sb_last_read=2; mybb[lastactive]=1749075910; loginattempts=1; mybbuser=1_cFtylqRhFCzcqHARYggbf5qA82B375LwUXNmBprqtCEO4N9A39; collapsed=; PHPSESSID=34e7b3593901306f92bba400d5af7a71; remember_token=53592ce51ce52c0c7583593f195e122f1f81cd1a5540cd7d02a4d5c6073c9492
+    [HTTP_HOST] => bo3.coddb.net
+    [HTTP_REFERER] => https://bo3.coddb.net/file_browser.php?path=.
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+    [HTTP_X_FORWARDED_FOR] => 95.146.14.61
+    [HTTP_SEC_CH_UA] => "Google Chrome";v="137", "Chromium";v="137", "Not/A)Brand";v="24"
+    [HTTP_SEC_CH_UA_MOBILE] => ?0
+    [HTTP_SEC_CH_UA_PLATFORM] => "Windows"
+    [HTTP_UPGRADE_INSECURE_REQUESTS] => 1
+    [HTTP_SEC_FETCH_SITE] => same-origin
+    [HTTP_SEC_FETCH_MODE] => navigate
+    [HTTP_SEC_FETCH_USER] => ?1
+    [HTTP_SEC_FETCH_DEST] => document
+    [HTTP_PRIORITY] => u=0, i
+    [HTTP_X_FORWARDED_PROTO] => https
+    [HTTP_X_HTTPS] => on
+    [DOCUMENT_ROOT] => /home/demobaqu/bo3.coddb.net
+    [REMOTE_ADDR] => 95.146.14.61
+    [REMOTE_PORT] => 49454
+    [SERVER_ADDR] => 198.54.116.172
+    [SERVER_NAME] => bo3.coddb.net
+    [SERVER_ADMIN] => webmaster@bo3.coddb.net
+    [SERVER_PORT] => 443
+    [REQUEST_SCHEME] => https
+    [REQUEST_URI] => /file_browser.php?path=.%2F.htaccess&mode=view
+    [PROXY_REMOTE_ADDR] => 198.54.116.172
+    [HTTPS] => on
+    [SCRIPT_FILENAME] => /home/demobaqu/bo3.coddb.net/file_browser.php
+    [QUERY_STRING] => path=.%2F.htaccess&mode=view
+    [SCRIPT_URI] => https://bo3.coddb.net/file_browser.php
+    [SCRIPT_URL] => /file_browser.php
+    [SCRIPT_NAME] => /file_browser.php
+    [SERVER_PROTOCOL] => HTTP/1.1
+    [SERVER_SOFTWARE] => LiteSpeed
+    [REQUEST_METHOD] => GET
+    [X-LSCACHE] => on
+    [PHP_SELF] => /file_browser.php
+    [REQUEST_TIME_FLOAT] => 1749227737.2052
+    [REQUEST_TIME] => 1749227737
+    [argv] => Array
+        (
+            [0] => path=.%2F.htaccess&mode=view
+        )
+
+    [argc] => 1
+)
+Array
+(
+    [PHPRC] => /home/demobaqu/bo3.coddb.net/
+    [PATH] => /usr/local/bin:/bin:/usr/bin
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate, br, zstd
+    [HTTP_ACCEPT_LANGUAGE] => en-GB,en-US;q=0.9,en;q=0.8
+    [HTTP_COOKIE] => mybb[lastvisit]=1749075904; sid=d516686569e315b680f07bc599c73f6e; mybblang=english; dvz_sb_last_read=2; mybb[lastactive]=1749075910; loginattempts=1; mybbuser=1_cFtylqRhFCzcqHARYggbf5qA82B375LwUXNmBprqtCEO4N9A39; collapsed=; PHPSESSID=34e7b3593901306f92bba400d5af7a71; remember_token=53592ce51ce52c0c7583593f195e122f1f81cd1a5540cd7d02a4d5c6073c9492
+    [HTTP_HOST] => bo3.coddb.net
+    [HTTP_REFERER] => https://bo3.coddb.net/file_browser.php?path=.
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+    [HTTP_X_FORWARDED_FOR] => 95.146.14.61
+    [HTTP_SEC_CH_UA] => "Google Chrome";v="137", "Chromium";v="137", "Not/A)Brand";v="24"
+    [HTTP_SEC_CH_UA_MOBILE] => ?0
+    [HTTP_SEC_CH_UA_PLATFORM] => "Windows"
+    [HTTP_UPGRADE_INSECURE_REQUESTS] => 1
+    [HTTP_SEC_FETCH_SITE] => same-origin
+    [HTTP_SEC_FETCH_MODE] => navigate
+    [HTTP_SEC_FETCH_USER] => ?1
+    [HTTP_SEC_FETCH_DEST] => document
+    [HTTP_PRIORITY] => u=0, i
+    [HTTP_X_FORWARDED_PROTO] => https
+    [HTTP_X_HTTPS] => on
+    [DOCUMENT_ROOT] => /home/demobaqu/bo3.coddb.net
+    [REMOTE_ADDR] => 95.146.14.61
+    [REMOTE_PORT] => 40714
+    [SERVER_ADDR] => 198.54.116.172
+    [SERVER_NAME] => bo3.coddb.net
+    [SERVER_ADMIN] => webmaster@bo3.coddb.net
+    [SERVER_PORT] => 443
+    [REQUEST_SCHEME] => https
+    [REQUEST_URI] => /file_browser.php/raw/.%2Fcredits.php
+    [PATH_INFO] => /raw/credits.php
+    [PATH_TRANSLATED] => /home/demobaqu/bo3.coddb.net/raw/credits.php
+    [PROXY_REMOTE_ADDR] => 198.54.116.172
+    [HTTPS] => on
+    [SCRIPT_FILENAME] => /home/demobaqu/bo3.coddb.net/file_browser.php
+    [QUERY_STRING] => 
+    [SCRIPT_URI] => https://bo3.coddb.net/file_browser.php/raw/credits.php
+    [SCRIPT_URL] => /file_browser.php/raw/credits.php
+    [SCRIPT_NAME] => /file_browser.php
+    [SERVER_PROTOCOL] => HTTP/1.1
+    [SERVER_SOFTWARE] => LiteSpeed
+    [REQUEST_METHOD] => GET
+    [X-LSCACHE] => on
+    [PHP_SELF] => /file_browser.php/raw/credits.php
+    [REQUEST_TIME_FLOAT] => 1749227746.1145
+    [REQUEST_TIME] => 1749227746
+    [argv] => Array
+        (
+        )
+
+    [argc] => 0
+)
+Array
+(
+    [PHPRC] => /home/demobaqu/bo3.coddb.net/
+    [PATH] => /usr/local/bin:/bin:/usr/bin
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate, br, zstd
+    [HTTP_ACCEPT_LANGUAGE] => en-GB,en-US;q=0.9,en;q=0.8
+    [HTTP_COOKIE] => mybb[lastvisit]=1749075904; sid=d516686569e315b680f07bc599c73f6e; mybblang=english; dvz_sb_last_read=2; mybb[lastactive]=1749075910; loginattempts=1; mybbuser=1_cFtylqRhFCzcqHARYggbf5qA82B375LwUXNmBprqtCEO4N9A39; collapsed=; PHPSESSID=34e7b3593901306f92bba400d5af7a71; remember_token=53592ce51ce52c0c7583593f195e122f1f81cd1a5540cd7d02a4d5c6073c9492
+    [HTTP_HOST] => bo3.coddb.net
+    [HTTP_REFERER] => https://bo3.coddb.net/file_browser.php?path=.
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+    [HTTP_X_FORWARDED_FOR] => 95.146.14.61
+    [HTTP_SEC_CH_UA] => "Google Chrome";v="137", "Chromium";v="137", "Not/A)Brand";v="24"
+    [HTTP_SEC_CH_UA_MOBILE] => ?0
+    [HTTP_SEC_CH_UA_PLATFORM] => "Windows"
+    [HTTP_UPGRADE_INSECURE_REQUESTS] => 1
+    [HTTP_SEC_FETCH_SITE] => same-origin
+    [HTTP_SEC_FETCH_MODE] => navigate
+    [HTTP_SEC_FETCH_USER] => ?1
+    [HTTP_SEC_FETCH_DEST] => document
+    [HTTP_PRIORITY] => u=0, i
+    [HTTP_X_FORWARDED_PROTO] => https
+    [HTTP_X_HTTPS] => on
+    [DOCUMENT_ROOT] => /home/demobaqu/bo3.coddb.net
+    [REMOTE_ADDR] => 95.146.14.61
+    [REMOTE_PORT] => 43404
+    [SERVER_ADDR] => 198.54.116.172
+    [SERVER_NAME] => bo3.coddb.net
+    [SERVER_ADMIN] => webmaster@bo3.coddb.net
+    [SERVER_PORT] => 443
+    [REQUEST_SCHEME] => https
+    [REQUEST_URI] => /file_browser.php/raw/.%2Fspin.php
+    [PATH_INFO] => /raw/spin.php
+    [PATH_TRANSLATED] => /home/demobaqu/bo3.coddb.net/raw/spin.php
+    [PROXY_REMOTE_ADDR] => 198.54.116.172
+    [HTTPS] => on
+    [SCRIPT_FILENAME] => /home/demobaqu/bo3.coddb.net/file_browser.php
+    [QUERY_STRING] => 
+    [SCRIPT_URI] => https://bo3.coddb.net/file_browser.php/raw/spin.php
+    [SCRIPT_URL] => /file_browser.php/raw/spin.php
+    [SCRIPT_NAME] => /file_browser.php
+    [SERVER_PROTOCOL] => HTTP/1.1
+    [SERVER_SOFTWARE] => LiteSpeed
+    [REQUEST_METHOD] => GET
+    [X-LSCACHE] => on
+    [PHP_SELF] => /file_browser.php/raw/spin.php
+    [REQUEST_TIME_FLOAT] => 1749227755.0886
+    [REQUEST_TIME] => 1749227755
+    [argv] => Array
+        (
+        )
+
+    [argc] => 0
+)
+Array
+(
+    [PHPRC] => /home/demobaqu/bo3.coddb.net/
+    [PATH] => /usr/local/bin:/bin:/usr/bin
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate, br, zstd
+    [HTTP_ACCEPT_LANGUAGE] => en-GB,en-US;q=0.9,en;q=0.8
+    [HTTP_COOKIE] => mybb[lastvisit]=1749075904; sid=d516686569e315b680f07bc599c73f6e; mybblang=english; dvz_sb_last_read=2; mybb[lastactive]=1749075910; loginattempts=1; mybbuser=1_cFtylqRhFCzcqHARYggbf5qA82B375LwUXNmBprqtCEO4N9A39; collapsed=; PHPSESSID=34e7b3593901306f92bba400d5af7a71; remember_token=53592ce51ce52c0c7583593f195e122f1f81cd1a5540cd7d02a4d5c6073c9492
+    [HTTP_HOST] => bo3.coddb.net
+    [HTTP_REFERER] => https://bo3.coddb.net/file_browser.php?path=.
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+    [HTTP_X_FORWARDED_FOR] => 95.146.14.61
+    [HTTP_SEC_CH_UA] => "Google Chrome";v="137", "Chromium";v="137", "Not/A)Brand";v="24"
+    [HTTP_SEC_CH_UA_MOBILE] => ?0
+    [HTTP_SEC_CH_UA_PLATFORM] => "Windows"
+    [HTTP_UPGRADE_INSECURE_REQUESTS] => 1
+    [HTTP_SEC_FETCH_SITE] => same-origin
+    [HTTP_SEC_FETCH_MODE] => navigate
+    [HTTP_SEC_FETCH_USER] => ?1
+    [HTTP_SEC_FETCH_DEST] => document
+    [HTTP_PRIORITY] => u=0, i
+    [HTTP_X_FORWARDED_PROTO] => https
+    [HTTP_X_HTTPS] => on
+    [DOCUMENT_ROOT] => /home/demobaqu/bo3.coddb.net
+    [REMOTE_ADDR] => 95.146.14.61
+    [REMOTE_PORT] => 43968
+    [SERVER_ADDR] => 198.54.116.172
+    [SERVER_NAME] => bo3.coddb.net
+    [SERVER_ADMIN] => webmaster@bo3.coddb.net
+    [SERVER_PORT] => 443
+    [REQUEST_SCHEME] => https
+    [REQUEST_URI] => /file_browser.php?path=.%2Fspin.php&mode=view
+    [PROXY_REMOTE_ADDR] => 198.54.116.172
+    [HTTPS] => on
+    [SCRIPT_FILENAME] => /home/demobaqu/bo3.coddb.net/file_browser.php
+    [QUERY_STRING] => path=.%2Fspin.php&mode=view
+    [SCRIPT_URI] => https://bo3.coddb.net/file_browser.php
+    [SCRIPT_URL] => /file_browser.php
+    [SCRIPT_NAME] => /file_browser.php
+    [SERVER_PROTOCOL] => HTTP/1.1
+    [SERVER_SOFTWARE] => LiteSpeed
+    [REQUEST_METHOD] => GET
+    [X-LSCACHE] => on
+    [PHP_SELF] => /file_browser.php
+    [REQUEST_TIME_FLOAT] => 1749227759.6482
+    [REQUEST_TIME] => 1749227759
+    [argv] => Array
+        (
+            [0] => path=.%2Fspin.php&mode=view
+        )
+
+    [argc] => 1
+)
+Array
+(
+    [PHPRC] => /home/demobaqu/bo3.coddb.net/
+    [PATH] => /usr/local/bin:/bin:/usr/bin
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate, br, zstd
+    [HTTP_ACCEPT_LANGUAGE] => en-GB,en-US;q=0.9,en;q=0.8
+    [HTTP_COOKIE] => mybb[lastvisit]=1749075904; sid=d516686569e315b680f07bc599c73f6e; mybblang=english; dvz_sb_last_read=2; mybb[lastactive]=1749075910; loginattempts=1; mybbuser=1_cFtylqRhFCzcqHARYggbf5qA82B375LwUXNmBprqtCEO4N9A39; collapsed=; PHPSESSID=34e7b3593901306f92bba400d5af7a71; remember_token=53592ce51ce52c0c7583593f195e122f1f81cd1a5540cd7d02a4d5c6073c9492
+    [HTTP_HOST] => bo3.coddb.net
+    [HTTP_REFERER] => https://bo3.coddb.net/file_browser.php?path=.%2Fspin.php&mode=view
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+    [HTTP_X_FORWARDED_FOR] => 95.146.14.61
+    [HTTP_SEC_CH_UA] => "Google Chrome";v="137", "Chromium";v="137", "Not/A)Brand";v="24"
+    [HTTP_SEC_CH_UA_MOBILE] => ?0
+    [HTTP_SEC_CH_UA_PLATFORM] => "Windows"
+    [HTTP_UPGRADE_INSECURE_REQUESTS] => 1
+    [HTTP_SEC_FETCH_SITE] => same-origin
+    [HTTP_SEC_FETCH_MODE] => navigate
+    [HTTP_SEC_FETCH_USER] => ?1
+    [HTTP_SEC_FETCH_DEST] => document
+    [HTTP_PRIORITY] => u=0, i
+    [HTTP_X_FORWARDED_PROTO] => https
+    [HTTP_X_HTTPS] => on
+    [DOCUMENT_ROOT] => /home/demobaqu/bo3.coddb.net
+    [REMOTE_ADDR] => 95.146.14.61
+    [REMOTE_PORT] => 34684
+    [SERVER_ADDR] => 198.54.116.172
+    [SERVER_NAME] => bo3.coddb.net
+    [SERVER_ADMIN] => webmaster@bo3.coddb.net
+    [SERVER_PORT] => 443
+    [REQUEST_SCHEME] => https
+    [REQUEST_URI] => /file_browser.php?path=.
+    [PROXY_REMOTE_ADDR] => 198.54.116.172
+    [HTTPS] => on
+    [SCRIPT_FILENAME] => /home/demobaqu/bo3.coddb.net/file_browser.php
+    [QUERY_STRING] => path=.
+    [SCRIPT_URI] => https://bo3.coddb.net/file_browser.php
+    [SCRIPT_URL] => /file_browser.php
+    [SCRIPT_NAME] => /file_browser.php
+    [SERVER_PROTOCOL] => HTTP/1.1
+    [SERVER_SOFTWARE] => LiteSpeed
+    [REQUEST_METHOD] => GET
+    [X-LSCACHE] => on
+    [PHP_SELF] => /file_browser.php
+    [REQUEST_TIME_FLOAT] => 1749227763.4782
+    [REQUEST_TIME] => 1749227763
+    [argv] => Array
+        (
+            [0] => path=.
+        )
+
+    [argc] => 1
+)
+Array
+(
+    [PHPRC] => /home/demobaqu/bo3.coddb.net/
+    [PATH] => /usr/local/bin:/bin:/usr/bin
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate, br, zstd
+    [HTTP_ACCEPT_LANGUAGE] => en-US,en;q=0.9,ru;q=0.8
+    [HTTP_HOST] => bo3.coddb.net
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+    [HTTP_X_FORWARDED_FOR] => 62.192.154.1
+    [HTTP_SEC_CH_UA] => "Google Chrome";v="137", "Chromium";v="137", "Not/A)Brand";v="24"
+    [HTTP_SEC_CH_UA_MOBILE] => ?0
+    [HTTP_SEC_CH_UA_PLATFORM] => "Windows"
+    [HTTP_DNT] => 1
+    [HTTP_UPGRADE_INSECURE_REQUESTS] => 1
+    [HTTP_SEC_FETCH_SITE] => cross-site
+    [HTTP_SEC_FETCH_MODE] => navigate
+    [HTTP_SEC_FETCH_USER] => ?1
+    [HTTP_SEC_FETCH_DEST] => document
+    [HTTP_PRIORITY] => u=0, i
+    [HTTP_X_FORWARDED_PROTO] => https
+    [HTTP_X_HTTPS] => on
+    [DOCUMENT_ROOT] => /home/demobaqu/bo3.coddb.net
+    [REMOTE_ADDR] => 62.192.154.1
+    [REMOTE_PORT] => 40348
+    [SERVER_ADDR] => 198.54.116.172
+    [SERVER_NAME] => bo3.coddb.net
+    [SERVER_ADMIN] => webmaster@bo3.coddb.net
+    [SERVER_PORT] => 443
+    [REQUEST_SCHEME] => https
+    [REQUEST_URI] => /file_browser.php
+    [PROXY_REMOTE_ADDR] => 198.54.116.172
+    [HTTPS] => on
+    [SCRIPT_FILENAME] => /home/demobaqu/bo3.coddb.net/file_browser.php
+    [QUERY_STRING] => 
+    [SCRIPT_URI] => https://bo3.coddb.net/file_browser.php
+    [SCRIPT_URL] => /file_browser.php
+    [SCRIPT_NAME] => /file_browser.php
+    [SERVER_PROTOCOL] => HTTP/1.1
+    [SERVER_SOFTWARE] => LiteSpeed
+    [REQUEST_METHOD] => GET
+    [X-LSCACHE] => on
+    [PHP_SELF] => /file_browser.php
+    [REQUEST_TIME_FLOAT] => 1749227772.0288
+    [REQUEST_TIME] => 1749227772
+    [argv] => Array
+        (
+        )
+
+    [argc] => 0
+)
+Array
+(
+    [PHPRC] => /home/demobaqu/bo3.coddb.net/
+    [PATH] => /usr/local/bin:/bin:/usr/bin
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate, br, zstd
+    [HTTP_ACCEPT_LANGUAGE] => en-GB,en-US;q=0.9,en;q=0.8
+    [HTTP_COOKIE] => mybb[lastvisit]=1749075904; sid=d516686569e315b680f07bc599c73f6e; mybblang=english; dvz_sb_last_read=2; mybb[lastactive]=1749075910; loginattempts=1; mybbuser=1_cFtylqRhFCzcqHARYggbf5qA82B375LwUXNmBprqtCEO4N9A39; collapsed=; PHPSESSID=34e7b3593901306f92bba400d5af7a71; remember_token=53592ce51ce52c0c7583593f195e122f1f81cd1a5540cd7d02a4d5c6073c9492
+    [HTTP_HOST] => bo3.coddb.net
+    [HTTP_REFERER] => https://bo3.coddb.net/file_browser.php?path=.
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+    [HTTP_X_FORWARDED_FOR] => 95.146.14.61
+    [HTTP_SEC_CH_UA] => "Google Chrome";v="137", "Chromium";v="137", "Not/A)Brand";v="24"
+    [HTTP_SEC_CH_UA_MOBILE] => ?0
+    [HTTP_SEC_CH_UA_PLATFORM] => "Windows"
+    [HTTP_UPGRADE_INSECURE_REQUESTS] => 1
+    [HTTP_SEC_FETCH_SITE] => same-origin
+    [HTTP_SEC_FETCH_MODE] => navigate
+    [HTTP_SEC_FETCH_USER] => ?1
+    [HTTP_SEC_FETCH_DEST] => document
+    [HTTP_PRIORITY] => u=0, i
+    [HTTP_X_FORWARDED_PROTO] => https
+    [HTTP_X_HTTPS] => on
+    [DOCUMENT_ROOT] => /home/demobaqu/bo3.coddb.net
+    [REMOTE_ADDR] => 95.146.14.61
+    [REMOTE_PORT] => 43416
+    [SERVER_ADDR] => 198.54.116.172
+    [SERVER_NAME] => bo3.coddb.net
+    [SERVER_ADMIN] => webmaster@bo3.coddb.net
+    [SERVER_PORT] => 443
+    [REQUEST_SCHEME] => https
+    [REQUEST_URI] => /file_browser.php?path=.%2Finc&mode=view
+    [PROXY_REMOTE_ADDR] => 198.54.116.172
+    [HTTPS] => on
+    [SCRIPT_FILENAME] => /home/demobaqu/bo3.coddb.net/file_browser.php
+    [QUERY_STRING] => path=.%2Finc&mode=view
+    [SCRIPT_URI] => https://bo3.coddb.net/file_browser.php
+    [SCRIPT_URL] => /file_browser.php
+    [SCRIPT_NAME] => /file_browser.php
+    [SERVER_PROTOCOL] => HTTP/1.1
+    [SERVER_SOFTWARE] => LiteSpeed
+    [REQUEST_METHOD] => GET
+    [X-LSCACHE] => on
+    [PHP_SELF] => /file_browser.php
+    [REQUEST_TIME_FLOAT] => 1749227789.9692
+    [REQUEST_TIME] => 1749227789
+    [argv] => Array
+        (
+            [0] => path=.%2Finc&mode=view
+        )
+
+    [argc] => 1
+)
+Array
+(
+    [PHPRC] => /home/demobaqu/bo3.coddb.net/
+    [PATH] => /usr/local/bin:/bin:/usr/bin
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate, br, zstd
+    [HTTP_ACCEPT_LANGUAGE] => en-GB,en-US;q=0.9,en;q=0.8
+    [HTTP_COOKIE] => mybb[lastvisit]=1749075904; sid=d516686569e315b680f07bc599c73f6e; mybblang=english; dvz_sb_last_read=2; mybb[lastactive]=1749075910; loginattempts=1; mybbuser=1_cFtylqRhFCzcqHARYggbf5qA82B375LwUXNmBprqtCEO4N9A39; collapsed=; PHPSESSID=34e7b3593901306f92bba400d5af7a71; remember_token=53592ce51ce52c0c7583593f195e122f1f81cd1a5540cd7d02a4d5c6073c9492
+    [HTTP_HOST] => bo3.coddb.net
+    [HTTP_REFERER] => https://bo3.coddb.net/file_browser.php?path=.%2Finc&mode=view
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+    [HTTP_X_FORWARDED_FOR] => 95.146.14.61
+    [HTTP_SEC_CH_UA] => "Google Chrome";v="137", "Chromium";v="137", "Not/A)Brand";v="24"
+    [HTTP_SEC_CH_UA_MOBILE] => ?0
+    [HTTP_SEC_CH_UA_PLATFORM] => "Windows"
+    [HTTP_UPGRADE_INSECURE_REQUESTS] => 1
+    [HTTP_SEC_FETCH_SITE] => same-origin
+    [HTTP_SEC_FETCH_MODE] => navigate
+    [HTTP_SEC_FETCH_USER] => ?1
+    [HTTP_SEC_FETCH_DEST] => document
+    [HTTP_PRIORITY] => u=0, i
+    [HTTP_X_FORWARDED_PROTO] => https
+    [HTTP_X_HTTPS] => on
+    [DOCUMENT_ROOT] => /home/demobaqu/bo3.coddb.net
+    [REMOTE_ADDR] => 95.146.14.61
+    [REMOTE_PORT] => 49890
+    [SERVER_ADDR] => 198.54.116.172
+    [SERVER_NAME] => bo3.coddb.net
+    [SERVER_ADMIN] => webmaster@bo3.coddb.net
+    [SERVER_PORT] => 443
+    [REQUEST_SCHEME] => https
+    [REQUEST_URI] => /file_browser.php?path=.%2Finc%2F_classes&mode=view
+    [PROXY_REMOTE_ADDR] => 198.54.116.172
+    [HTTPS] => on
+    [SCRIPT_FILENAME] => /home/demobaqu/bo3.coddb.net/file_browser.php
+    [QUERY_STRING] => path=.%2Finc%2F_classes&mode=view
+    [SCRIPT_URI] => https://bo3.coddb.net/file_browser.php
+    [SCRIPT_URL] => /file_browser.php
+    [SCRIPT_NAME] => /file_browser.php
+    [SERVER_PROTOCOL] => HTTP/1.1
+    [SERVER_SOFTWARE] => LiteSpeed
+    [REQUEST_METHOD] => GET
+    [X-LSCACHE] => on
+    [PHP_SELF] => /file_browser.php
+    [REQUEST_TIME_FLOAT] => 1749227790.9973
+    [REQUEST_TIME] => 1749227790
+    [argv] => Array
+        (
+            [0] => path=.%2Finc%2F_classes&mode=view
+        )
+
+    [argc] => 1
+)
+Array
+(
+    [PHPRC] => /home/demobaqu/bo3.coddb.net/
+    [PATH] => /usr/local/bin:/bin:/usr/bin
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate, br, zstd
+    [HTTP_ACCEPT_LANGUAGE] => en-GB,en-US;q=0.9,en;q=0.8
+    [HTTP_COOKIE] => mybb[lastvisit]=1749075904; sid=d516686569e315b680f07bc599c73f6e; mybblang=english; dvz_sb_last_read=2; mybb[lastactive]=1749075910; loginattempts=1; mybbuser=1_cFtylqRhFCzcqHARYggbf5qA82B375LwUXNmBprqtCEO4N9A39; collapsed=; PHPSESSID=34e7b3593901306f92bba400d5af7a71; remember_token=53592ce51ce52c0c7583593f195e122f1f81cd1a5540cd7d02a4d5c6073c9492
+    [HTTP_HOST] => bo3.coddb.net
+    [HTTP_REFERER] => https://bo3.coddb.net/file_browser.php?path=.%2Finc%2F_classes&mode=view
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+    [HTTP_X_FORWARDED_FOR] => 95.146.14.61
+    [HTTP_SEC_CH_UA] => "Google Chrome";v="137", "Chromium";v="137", "Not/A)Brand";v="24"
+    [HTTP_SEC_CH_UA_MOBILE] => ?0
+    [HTTP_SEC_CH_UA_PLATFORM] => "Windows"
+    [HTTP_UPGRADE_INSECURE_REQUESTS] => 1
+    [HTTP_SEC_FETCH_SITE] => same-origin
+    [HTTP_SEC_FETCH_MODE] => navigate
+    [HTTP_SEC_FETCH_USER] => ?1
+    [HTTP_SEC_FETCH_DEST] => document
+    [HTTP_PRIORITY] => u=0, i
+    [HTTP_X_FORWARDED_PROTO] => https
+    [HTTP_X_HTTPS] => on
+    [DOCUMENT_ROOT] => /home/demobaqu/bo3.coddb.net
+    [REMOTE_ADDR] => 95.146.14.61
+    [REMOTE_PORT] => 49914
+    [SERVER_ADDR] => 198.54.116.172
+    [SERVER_NAME] => bo3.coddb.net
+    [SERVER_ADMIN] => webmaster@bo3.coddb.net
+    [SERVER_PORT] => 443
+    [REQUEST_SCHEME] => https
+    [REQUEST_URI] => /file_browser.php?path=.%2Finc%2F_classes%2FTemplate.php&mode=view
+    [PROXY_REMOTE_ADDR] => 198.54.116.172
+    [HTTPS] => on
+    [SCRIPT_FILENAME] => /home/demobaqu/bo3.coddb.net/file_browser.php
+    [QUERY_STRING] => path=.%2Finc%2F_classes%2FTemplate.php&mode=view
+    [SCRIPT_URI] => https://bo3.coddb.net/file_browser.php
+    [SCRIPT_URL] => /file_browser.php
+    [SCRIPT_NAME] => /file_browser.php
+    [SERVER_PROTOCOL] => HTTP/1.1
+    [SERVER_SOFTWARE] => LiteSpeed
+    [REQUEST_METHOD] => GET
+    [X-LSCACHE] => on
+    [PHP_SELF] => /file_browser.php
+    [REQUEST_TIME_FLOAT] => 1749227791.8822
+    [REQUEST_TIME] => 1749227791
+    [argv] => Array
+        (
+            [0] => path=.%2Finc%2F_classes%2FTemplate.php&mode=view
+        )
+
+    [argc] => 1
+)
+Array
+(
+    [PHPRC] => /home/demobaqu/bo3.coddb.net/
+    [PATH] => /usr/local/bin:/bin:/usr/bin
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate, br, zstd
+    [HTTP_ACCEPT_LANGUAGE] => en-US,en;q=0.9
+    [HTTP_COOKIE] => PHPSESSID=aadac967ec81fe4719a2a1c77ca118ba
+    [HTTP_HOST] => bo3.coddb.net
+    [HTTP_USER_AGENT] => Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+    [HTTP_X_FORWARDED_FOR] => 62.192.154.50
+    [HTTP_SEC_CH_UA] => "Google Chrome";v="137", "Chromium";v="137", "Not/A)Brand";v="24"
+    [HTTP_SEC_CH_UA_MOBILE] => ?0
+    [HTTP_SEC_CH_UA_PLATFORM] => "Linux"
+    [HTTP_UPGRADE_INSECURE_REQUESTS] => 1
+    [HTTP_SEC_FETCH_SITE] => none
+    [HTTP_SEC_FETCH_MODE] => navigate
+    [HTTP_SEC_FETCH_USER] => ?1
+    [HTTP_SEC_FETCH_DEST] => document
+    [HTTP_PRIORITY] => u=0, i
+    [HTTP_X_FORWARDED_PROTO] => https
+    [HTTP_X_HTTPS] => on
+    [DOCUMENT_ROOT] => /home/demobaqu/bo3.coddb.net
+    [REMOTE_ADDR] => 62.192.154.50
+    [REMOTE_PORT] => 42492
+    [SERVER_ADDR] => 198.54.116.172
+    [SERVER_NAME] => bo3.coddb.net
+    [SERVER_ADMIN] => webmaster@bo3.coddb.net
+    [SERVER_PORT] => 443
+    [REQUEST_SCHEME] => https
+    [REQUEST_URI] => /file_browser.php
+    [PROXY_REMOTE_ADDR] => 198.54.116.172
+    [HTTPS] => on
+    [SCRIPT_FILENAME] => /home/demobaqu/bo3.coddb.net/file_browser.php
+    [QUERY_STRING] => 
+    [SCRIPT_URI] => https://bo3.coddb.net/file_browser.php
+    [SCRIPT_URL] => /file_browser.php
+    [SCRIPT_NAME] => /file_browser.php
+    [SERVER_PROTOCOL] => HTTP/1.1
+    [SERVER_SOFTWARE] => LiteSpeed
+    [REQUEST_METHOD] => GET
+    [X-LSCACHE] => on
+    [PHP_SELF] => /file_browser.php
+    [REQUEST_TIME_FLOAT] => 1749227830.3377
+    [REQUEST_TIME] => 1749227830
+    [argv] => Array
+        (
+        )
+
+    [argc] => 0
+)
+Array
+(
+    [PHPRC] => /home/demobaqu/bo3.coddb.net/
+    [PATH] => /usr/local/bin:/bin:/usr/bin
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate, br, zstd
+    [HTTP_ACCEPT_LANGUAGE] => en-GB,en-US;q=0.9,en;q=0.8
+    [HTTP_COOKIE] => mybb[lastvisit]=1749075904; sid=d516686569e315b680f07bc599c73f6e; mybblang=english; dvz_sb_last_read=2; mybb[lastactive]=1749075910; loginattempts=1; mybbuser=1_cFtylqRhFCzcqHARYggbf5qA82B375LwUXNmBprqtCEO4N9A39; collapsed=; PHPSESSID=34e7b3593901306f92bba400d5af7a71; remember_token=53592ce51ce52c0c7583593f195e122f1f81cd1a5540cd7d02a4d5c6073c9492
+    [HTTP_HOST] => bo3.coddb.net
+    [HTTP_REFERER] => https://bo3.coddb.net/file_browser.php?path=.%2Finc%2F_classes&mode=view
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+    [HTTP_X_FORWARDED_FOR] => 95.146.14.61
+    [HTTP_SEC_CH_UA] => "Google Chrome";v="137", "Chromium";v="137", "Not/A)Brand";v="24"
+    [HTTP_SEC_CH_UA_MOBILE] => ?0
+    [HTTP_SEC_CH_UA_PLATFORM] => "Windows"
+    [HTTP_UPGRADE_INSECURE_REQUESTS] => 1
+    [HTTP_SEC_FETCH_SITE] => same-origin
+    [HTTP_SEC_FETCH_MODE] => navigate
+    [HTTP_SEC_FETCH_USER] => ?1
+    [HTTP_SEC_FETCH_DEST] => document
+    [HTTP_PRIORITY] => u=0, i
+    [HTTP_X_FORWARDED_PROTO] => https
+    [HTTP_X_HTTPS] => on
+    [DOCUMENT_ROOT] => /home/demobaqu/bo3.coddb.net
+    [REMOTE_ADDR] => 95.146.14.61
+    [REMOTE_PORT] => 44300
+    [SERVER_ADDR] => 198.54.116.172
+    [SERVER_NAME] => bo3.coddb.net
+    [SERVER_ADMIN] => webmaster@bo3.coddb.net
+    [SERVER_PORT] => 443
+    [REQUEST_SCHEME] => https
+    [REQUEST_URI] => /file_browser.php?path=.%2Finc
+    [PROXY_REMOTE_ADDR] => 198.54.116.172
+    [HTTPS] => on
+    [SCRIPT_FILENAME] => /home/demobaqu/bo3.coddb.net/file_browser.php
+    [QUERY_STRING] => path=.%2Finc
+    [SCRIPT_URI] => https://bo3.coddb.net/file_browser.php
+    [SCRIPT_URL] => /file_browser.php
+    [SCRIPT_NAME] => /file_browser.php
+    [SERVER_PROTOCOL] => HTTP/1.1
+    [SERVER_SOFTWARE] => LiteSpeed
+    [REQUEST_METHOD] => GET
+    [X-LSCACHE] => on
+    [PHP_SELF] => /file_browser.php
+    [REQUEST_TIME_FLOAT] => 1749229376.3653
+    [REQUEST_TIME] => 1749229376
+    [argv] => Array
+        (
+            [0] => path=.%2Finc
+        )
+
+    [argc] => 1
+)
