@@ -1,11 +1,11 @@
 <?php
-// inc/_global/quests/be_followed_10.php
+// inc/_global/quests/follow_5_users.php
 //
-// Quest: “Become Popular: 10 Followers”
+// Quest: “Get Out There: Follow 5 Users”
 //
-//—Checks how many users are currently following the current user. On each follow/unfollow,
-// updates a row in demon_user_quests with progress_count. Once that live count hits 10,
-// marks is_completed = 1, inserts credit logs, and updates balance.
+//—Checks how many users the current user is following. On each follow/unfollow,
+// updates a row in demon_user_quests with the current progress_count. Once that
+// live count hits 5, it marks is_completed = 1, inserts credit logs, and updates balance.
 
 if (session_status() === PHP_SESSION_NONE) {
     session_start();
@@ -16,8 +16,8 @@ if ($userId === 0) {
     return; // not logged in
 }
 
-// 1) Fetch quest definition for 'be_followed_10'
-$questKey = 'be_followed_10';
+// 1) Fetch quest definition for 'follow_5_users'
+$questKey = 'follow_5_users';
 $qStmt = $pdo->prepare("
     SELECT
       id,
@@ -39,16 +39,16 @@ if (!$quest) {
 
 $questId       = (int)$quest['id'];
 $rewardAmount  = (int)$quest['reward_amount'];
-$threshold     = max(1, (int)$quest['threshold_count']); // should be 10 per SQL insert
+$threshold     = max(1, (int)$quest['threshold_count']); // should be 5 per SQL insert
 
-// 2) Count how many users are following this user (live)
+// 2) Count how many users this user is following (live)
 $countStmt = $pdo->prepare("
     SELECT COUNT(*) AS cnt
     FROM demon_follows
-    WHERE user_id = :uid
+    WHERE follower_id = :uid
 ");
 $countStmt->execute(['uid' => $userId]);
-$followerCount = (int)$countStmt->fetchColumn();
+$followCount = (int)$countStmt->fetchColumn();
 
 // 3) Fetch the existing demon_user_quests row for this quest (if any)
 $userQuestStmt = $pdo->prepare("
@@ -79,7 +79,7 @@ try {
             'uid' => $userId,
             'qk'  => $questKey,
             'qid' => $questId,
-            'pc'  => $followerCount
+            'pc'  => $followCount
         ]);
         $uqId        = (int)$pdo->lastInsertId();
         $alreadyDone = false;
@@ -98,19 +98,19 @@ try {
                 WHERE id = :id
             ");
             $updateQuest->execute([
-                'pc' => $followerCount,
+                'pc' => $followCount,
                 'id' => $uqId
             ]);
         }
     }
 
-    // 4) If not yet completed and the live count ≥ threshold → mark completed & award
-    if (! $alreadyDone && $followerCount >= $threshold) {
+    // 4) If not yet completed and the live count reached threshold → mark completed & award
+    if (! $alreadyDone && $followCount >= $threshold) {
         // a) Mark this quest row as completed
         $completeStmt = $pdo->prepare("
             UPDATE demon_user_quests
-            SET is_completed   = 1,
-                completed_at   = NOW(),
+            SET is_completed = 1,
+                completed_at = NOW(),
                 progress_count = :pc,  /* ensure we store threshold here */
                 last_updated   = NOW()
             WHERE id = :id
@@ -127,12 +127,12 @@ try {
                 INSERT INTO demon_credit_logs
                   (user_id, change_amount, type, reason, description, created_at, quest_key)
                 VALUES
-                  (:uid, :amt, 'earn', :reason, 'Got {$threshold} followers', NOW(), :qk)
+                  (:uid, :amt, 'earn', :reason, 'Followed {$threshold} users', NOW(), :qk)
             ");
             $logStmt->execute([
                 'uid'    => $userId,
                 'amt'    => $rewardAmount,
-                'reason' => 'Quest: be_followed_10',
+                'reason' => 'Quest: follow_5_users',
                 'qk'     => $questKey
             ]);
 
@@ -154,6 +154,6 @@ try {
     if ($pdo->inTransaction()) {
         $pdo->rollBack();
     }
-    // Silently fail on error
+    // Silently fail if something goes wrong
     return;
 }
