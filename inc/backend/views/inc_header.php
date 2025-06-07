@@ -1,5 +1,4 @@
 <!-- Put this near the top of your page (once), pointing at your sound file -->
-<audio id="notif-sound" src="/assets/media/sounds/notifications/new-notification-10-352755.mp3" preload="auto"></audio>
 <?php
 /**
  * backend/views/inc_header.php
@@ -14,35 +13,6 @@ if (session_status() === PHP_SESSION_NONE) {
     session_start();
 }
 
-// ─────────────────────────────────────────────────────────────────────────────
-// Session timeout: if last activity was more than 30 minutes ago, force logout
-// ─────────────────────────────────────────────────────────────────────────────
-$timeoutSeconds = 1800; // 30 minutes
-
-if (isset($_SESSION['LAST_ACTIVITY'])) {
-    $elapsed = time() - $_SESSION['LAST_ACTIVITY'];
-    if ($elapsed > $timeoutSeconds) {
-        // Destroy session and redirect to login
-        $_SESSION = [];
-        if (ini_get("session.use_cookies")) {
-            $params = session_get_cookie_params();
-            setcookie(
-                session_name(),
-                '',
-                time() - 42000,
-                $params["path"],
-                $params["domain"],
-                $params["secure"],
-                $params["httponly"]
-            );
-        }
-        session_destroy();
-        header('Location: /login.php');
-        exit;
-    }
-}
-// Update last activity timestamp
-$_SESSION['LAST_ACTIVITY'] = time();
 
 // ─────────────────────────────────────────────────────────────────────────────
 // Ensure global config is loaded (so $site, $pdo, $cb exist)
@@ -186,7 +156,7 @@ if ($currentUserId > 0) {
 
 
 ?>
-
+<audio id="notif-sound" src="/assets/media/sounds/notifications/new-notification-10-352755.mp3" preload="auto"></audio>
 <!-- Header -->
 <header id="page-header">
   <!-- Header Content -->
@@ -431,6 +401,14 @@ if ($currentUserId > 0) {
       </div>
     <?php endif; ?>
       <!-- End Credits -->
+      <!-- Start Donation -->
+          <div class="d-inline-block me-2">
+      <a href="/donate.php" class="btn btn-sm btn-alt-secondary">
+        <i class="fa-solid fa-money-bill"></i>
+        Donate
+      </a>
+    </div>
+    <!-- End Donation -->
       <!-- Notifications -->
       <div class="dropdown d-inline-block" data-bs-auto-close="outside">
         <button type="button" class="btn btn-sm btn-alt-secondary"
