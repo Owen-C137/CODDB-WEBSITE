@@ -8,7 +8,9 @@ require 'inc/backend/config.php';
 // (Optional) adjust layout size if using your $cb object
 $cb->l_m_content = 'narrow';
 
-
+if (!isset($_SESSION['csrf_token'])) {
+    $_SESSION['csrf_token'] = bin2hex(random_bytes(32));
+}
 
 // ────────────────────────────────────────────────────────────────────────────
 // 0) HANDLE “TRANSFER CREDITS” FORM SUBMISSION (unchanged from before)

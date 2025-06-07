@@ -1,6 +1,7 @@
 <?php require 'inc/_global/config.php'; ?>
 <?php require 'inc/_global/login_check.php'; ?>
 <?php require 'inc/backend/config.php'; ?>
+
 <?php
 // Codebase - Page specific configuration
 $cb->l_m_content = 'narrow';
