@@ -1,29 +1,47 @@
 <?php
 // inc/_global/login_check.php
 // -------------------------------------------------
-// Just enforce “must be logged in” (or via remember‐me).
-// No credit‐balance logic in here.
+// Enforce login + session timeout + remember-me.
 // -------------------------------------------------
 
-// If $pdo isn’t already set, load our global config
-if (!isset($pdo)) {
-    require_once __DIR__ . '/config.php';
-}
+// Ensure we have our DB & config
+require_once __DIR__ . '/config.php';
 
+// Start buffering and session
 session_start();
 
-// If session already has user_id, we’re done
+// ────────────────
+// 1) Session Timeout
+// ────────────────
+$timeoutSeconds = 30 * 60; // e.g. 30 minutes
+if (isset($_SESSION['LAST_ACTIVITY'])
+    && (time() - $_SESSION['LAST_ACTIVITY'] > $timeoutSeconds)
+) {
+    // Timeout hit: clear session and force logout
+    session_unset();
+    session_destroy();
+    header('Location: /logout.php');
+    exit;
+}
+// Update last‐activity timestamp
+$_SESSION['LAST_ACTIVITY'] = time();
+
+// ────────────────
+// 2) Already logged in?
+// ────────────────
 if (isset($_SESSION['user_id'])) {
+    // You’re good—no further action needed
     return;
 }
 
-// Otherwise, try “remember me” cookie logic
+// ────────────────────────
+// 3) “Remember Me” Cookie
+//────────────────────────
 if (!empty($_COOKIE['remember_token'])) {
     $token = $_COOKIE['remember_token'];
-
-    $sql  = "
+    $sql   = "
       SELECT user_id, expires_at
-      FROM `demon_user_sessions`
+      FROM demon_user_sessions
       WHERE session_token = :token
         AND session_type    = 'remember_me'
       LIMIT 1
@@ -33,15 +51,31 @@ if (!empty($_COOKIE['remember_token'])) {
     $row = $stmt->fetch(PDO::FETCH_ASSOC);
 
     if ($row && strtotime($row['expires_at']) > time()) {
-        // valid remember‐me → re‐hydrate session
-        $_SESSION['user_id'] = (int)$row['user_id'];
+        // Valid token → restore session
+        $userId = (int)$row['user_id'];
+        $_SESSION['user_id'] = $userId;
+
+        // Also fetch username & role for header display
+        $stmt2 = $pdo->prepare("
+          SELECT username, role_id
+          FROM demon_users
+          WHERE id = :uid
+          LIMIT 1
+        ");
+        $stmt2->execute([':uid' => $userId]);
+        if ($u = $stmt2->fetch(PDO::FETCH_ASSOC)) {
+            $_SESSION['username'] = $u['username'];
+            $_SESSION['role_id']  = $u['role_id'];
+        }
         return;
     }
 
-    // invalid/expired → wipe cookie
+    // Token expired or invalid → clear cookie
     setcookie('remember_token', '', time() - 3600, '/', '', true, true);
 }
 
-// If we’ve reached here, no valid session = redirect
+// ─────────────────────────────
+// 4) Nothing worked → Log out
+//─────────────────────────────
 header('Location: /logout.php');
 exit;

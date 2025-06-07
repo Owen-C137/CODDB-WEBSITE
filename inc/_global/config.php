@@ -7,7 +7,8 @@
  * Global configuration file
  *
  */
-
+// 1) Composer autoloader
+require __DIR__ . '/../../vendor/autoload.php';
 // Include required classes
 require __DIR__ . '/../_classes/Template.php';
 
@@ -51,6 +52,14 @@ $site = [
     'timezone'           => 'Europe/London',   // ← pick any from http://php.net/manual/en/timezones.php
     // …
 ];
+
+
+// 2) Your existing config…
+define('STRIPE_SECRET_KEY',      'sk_test_…');
+define('STRIPE_PUBLISHABLE_KEY', 'pk_test_…');
+define('PAYPAL_CLIENT_ID',       'AeVky0opWkCtsjZwO5SYOMebEZgOJ70MKMJpJItNHET1W4F6RDYUuzELb-zUi8__772M0ZzBzsp6kInC');
+define('PAYPAL_CLIENT_SECRET',   'EEJKNJRsgA_Cz6ti2WQv54SvHJpkPHEgbfV1p6rTaZL4AU22EIKg-g6OBKyE6HuBQWcEonun-bHxcojW');
+define('PAYPAL_ENV',             'live'); // or 'live'
 
 // **************************************************************************************************
 // FETCH SITE SETTINGS
